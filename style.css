@@ -49,7 +49,7 @@ form p {
     font-weight: 400;
     color: #4a5568;
     font-size: 12px;
-    font-family: karla;
+    /* font-family: karla; */
     margin-top: -12px;
     margin-bottom: 30px;
 }
