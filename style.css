@@ -4,36 +4,78 @@ body {
 
 .full-page {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
 }
 
 .logo {
     text-align: center;
     /* background-color: red; */
     margin-top: 4vh;
+    margin-bottom: 30px;
 }
 
 .form {
-    background-color: white;
-    padding: 30px 0;
-    border-radius: 20px 20px 20px 0;
+
     text-align: center;
+
 }
 
-label, input {
-    text-align: left;
+form {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 30px 0;
+    border-radius: 20px 20px 20px 0;
+    
 }
 
 input {
-    width: 400px;
+    width: 350px;
     height: 60px;
     text-align: center;
     border-radius: 5px;
-    background-color: #EDF2F7;
+    background-color: rgb(210, 212, 214);
+    /* background-color: rgb(241, 235, 235); */
+    /* opacity: 0.1; */
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+    color: #BAB4C0;
+}
+
+select {
+    width: 360px;
+    height: 60px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: rgb(210, 212, 214);
+    margin: 10px 0;
+    
+}
+
+.login a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+
+.login {
+    margin: 40px 0;
+}
+
+.label-input {
+    text-align: left;
+    margin-left: 4vw;
+    font-size: 13px;
 }
 
 .align {
-    text-align: left;
+    /* text-align: ; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -59,7 +101,12 @@ button {
     color: white;
     border-radius: 20px 20px 20px 0;
     text-align: center;
-    margin-top: 20px;
-    width: 400px;
+    /* margin-top: 20px; */
+    width: 365px;
     height: 70px;
+    margin: 30px 0;
+}
+
+button:hover {
+    cursor: pointer;
 }
