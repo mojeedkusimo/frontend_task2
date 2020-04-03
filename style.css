@@ -41,10 +41,10 @@ input {
     margin-bottom: 40px;
     margin-top: 10px;
     padding-left: 10px;
-    color: #BAB4C0;
+    color: #000;
 }
 
-select {
+datalist {
     width: 360px;
     height: 60px;
     border-radius: 5px;
@@ -53,6 +53,7 @@ select {
     font-size: 15px;
     background-color: rgb(210, 212, 214);
     margin: 10px 0;
+    color: #000;
     
 }
 

@@ -50,19 +50,32 @@
                     <div class="label-input">
                     <label for="about" class="align">How Did You Hear About Us? (Optional)</label><br>
                     </div>
-                    <select id="about">
-                        <option value="select" selected>Click To Select</option>
-                        <option value="Facebook">Facebook</option>
-                        <option value="Twitter">Twitter</option>
-                        <option value="Instagram">Instagram</option>
-                        <option value="Family">Friend/Family/Coworker Referal</option>
-                        <option value="Google-Search">Google Search</option>
-                        <option value="Google-Playstore">Google Playstore</option>
-                        <option value="Online-Blog">Online Blog</option>
-                        <option value="Local-Newspaper">Local Newspaper</option>
-                        <option value="Event">At an event</option>
-                        <option value="Other">Other</option>
-                      </select><br>
+                    <input list="about" name="about" placeholder="Click To Select">
+                    <!-- <select id="about"> -->
+                        <datalist id="about">
+                        <!-- <option value="select" selected>Click To Select</option> -->
+                        <option value="Facebook">
+                        <option value="Twitter">
+                        <option value="Instagram">
+                        <option value="Friend/Family/Coworker Referal">
+                        <option value="Google-Search">
+                        <option value="Google-Playstore">
+                        <option value="Online-Blog">
+                        <option value="Local-Newspaper">
+                        <option value="At an Event">
+                        <option value="Other">
+                    </datalist>
+                      <!-- </select> -->
+                      <br>
+
+                      <!-- <input list="browsers" name="browser">
+                      <datalist id="browsers">
+                        <option value="Internet Explorer">
+                        <option value="Firefox">
+                        <option value="Chrome">
+                        <option value="Opera">
+                        <option value="Safari">
+                      </datalist> -->
                     
                     <button type="submit" >CREATE ACCOUNT</button>
                 </form>
